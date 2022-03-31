@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+nav .siteSettings a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.siteSettings .settingsLink {
+    padding: 12px 10px;
+}
+.siteSettings {
+    margin-left: 20px;
+}
+.contactIcons {
+    margin-right: 20px;
+}
+.contactIcons a {
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.aside {
+    left: 0;
+    width: 400px;
+    height: 100%;
+    padding: 30px 40px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.aside h1 {
+    margin: 40px 0;
+    font-size: 40px;
+}
+.aside div {
+    background-color: #000;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+.templates {
+    padding: 20px 40px;
+}
+.template {
+    margin-top: 10px;
+}
+.template p {
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+}
